@@ -1,0 +1,244 @@
+/* =========================
+   KARTU PEMBUKA
+========================= */
+
+.webdesign-trigger {
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  color: #171717;
+  cursor: pointer;
+}
+
+
+/* =========================
+   MODAL OVERLAY
+========================= */
+
+.webdesign-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(5px);
+}
+
+
+/* =========================
+   MODAL PANEL
+========================= */
+
+.webdesign-modal-panel {
+  position: relative;
+  width: min(760px, 100%);
+  max-height: 85vh;
+  overflow-y: auto;
+  padding: clamp(24px, 5vw, 48px);
+  background: #fafafa;
+  color: #171717;
+}
+
+
+/* =========================
+   CLOSE BUTTON
+========================= */
+
+.webdesign-modal-close {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  border: 0;
+  background: transparent;
+  color: #171717;
+  font-size: 30px;
+  line-height: 1;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.webdesign-modal-close:hover {
+  opacity: 0.55;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.webdesign-modal-header {
+  padding: 0 28px 28px 0;
+  border-bottom: 1px solid #dedede;
+}
+
+.webdesign-modal-header > span {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: #666;
+}
+
+.webdesign-modal-header h2 {
+  margin: 16px 0 8px;
+  font-family: "Playfair Display", serif;
+  font-size: clamp(28px, 5vw, 40px);
+  font-weight: 400;
+  line-height: 1.2;
+  color: #171717;
+}
+
+.webdesign-modal-header p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.8;
+  color: #666;
+}
+
+
+/* =========================
+   PROJECT LIST
+========================= */
+
+.webdesign-project-item {
+  display: grid;
+  grid-template-columns: 35px minmax(0, 1fr);
+  gap: 16px;
+  padding: 26px 0;
+  border-bottom: 1px solid #dedede;
+}
+
+.webdesign-project-number {
+  padding-top: 4px;
+  font-size: 11px;
+  color: #777;
+}
+
+.webdesign-project-info {
+  min-width: 0;
+}
+
+.webdesign-project-info h3 {
+  margin: 0 0 8px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #171717;
+}
+
+.webdesign-project-info > p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.8;
+  color: #666;
+}
+
+
+/* =========================
+   CATEGORY
+========================= */
+
+.webdesign-project-category {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 10px;
+  letter-spacing: 0.05em;
+  color: #777;
+}
+
+
+/* =========================
+   FIGMA BUTTON
+========================= */
+
+.webdesign-project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.webdesign-project-actions a {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #171717;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.webdesign-project-actions a:hover {
+  opacity: 0.55;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.webdesign-modal-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 20px;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: #777;
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 600px) {
+  .webdesign-modal {
+    padding: 12px;
+  }
+
+  .webdesign-modal-panel {
+    width: 100%;
+    max-height: 90vh;
+    padding: 24px 20px;
+  }
+
+  .webdesign-modal-close {
+    top: 12px;
+    right: 14px;
+  }
+
+  .webdesign-modal-header {
+    padding-right: 24px;
+    padding-bottom: 22px;
+  }
+
+  .webdesign-modal-header h2 {
+    font-size: 28px;
+  }
+
+  .webdesign-project-item {
+    grid-template-columns: 25px minmax(0, 1fr);
+    gap: 10px;
+    padding: 22px 0;
+  }
+
+  .webdesign-project-info h3 {
+    font-size: 15px;
+  }
+
+  .webdesign-project-actions {
+    gap: 14px;
+  }
+
+  .webdesign-modal-footer {
+    font-size: 9px;
+  }
+}
+
+.webdesign-trigger h4,
+.webdesign-trigger p,
+.webdesign-trigger .project-tech {
+  text-align: center;
+}
