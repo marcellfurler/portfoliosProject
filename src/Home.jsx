@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import "./App.css";
-import ell from "./assets/ell.jpg";
+import ell from "/public/assets/ell.jpg";
 import Experiences from "./components/experiences.jsx";
 import { Link } from "react-router-dom";
 import WebApp from "./components/WebApp";
@@ -98,7 +98,7 @@ function Home() {
             <article
               className="organization-item"
               style={{
-                "--org-bg": "url('src/assets/2.work_experience/ppbukdw.jpg')"
+                "--org-bg": "url('./public/assets/2.work_experience/ppbukdw.jpg')"
               }}
             >
               <div className="organization-date">
@@ -123,7 +123,7 @@ function Home() {
             <article
               className="organization-item"
               style={{
-                "--org-bg": "url('src/assets/2.work_experience/gkjwatesselatan.png')"
+                "--org-bg": "url('./public/assets/2.work_experience/gkjwatesselatan.png')"
               }}
             >
               <div className="organization-date">
@@ -169,7 +169,7 @@ function Home() {
 
 
             <Link
-            to="/projects/creativity"
+            to="/creativity"
             className="project-card project-small"
             >
             <div className="project-card-top">
@@ -179,7 +179,7 @@ function Home() {
 
             <div className="project-visual arts-visual">
                 <img
-                src="/src/assets/song.png"
+                src="./public/assets/song.png"
                 alt="Arts and Creativity Icon"
                 className="project-icon"
                 />
@@ -216,7 +216,7 @@ function Home() {
             <article
               className="organization-item"
               style={{
-                "--org-bg": "url('/src/assets/4.organization/duta-voice.jpg')"
+                "--org-bg": "url('./public/assets/4.organization/duta-voice.jpg')"
               }}
             >
               <div className="organization-date">
@@ -240,7 +240,7 @@ function Home() {
             <article
               className="organization-item"
               style={{
-                "--org-bg": "url('/src/assets/4.organization/duta-voice2.JPG')"
+                "--org-bg": "url('./public/assets/4.organization/duta-voice2.JPG')"
               }}
             >
               <div className="organization-date">
@@ -264,7 +264,7 @@ function Home() {
             <article
               className="organization-item"
               style={{
-                "--org-bg": "url('/src/assets/4.organization/salawaku.JPG')"
+                "--org-bg": "url('./public/assets/4.organization/salawaku.JPG')"
               }}
             >
               <div className="organization-date">
@@ -307,7 +307,7 @@ function Home() {
             <article
               className="award-item"
               style={{
-                "--award-bg": "url('/src/assets/5.experiences/dv-ibcf/ibcf5.jpg')"
+                "--award-bg": "url('/public/assets/5.experiences/dv-ibcf/ibcf5.jpg')"
               }}
             >
               <div className="award-date">
@@ -324,7 +324,7 @@ function Home() {
 
                 <div className="award-links">
                   <a
-                    href="src/assets/6.awards/ibcf/ibcfmixed.pdf"
+                    href="public/assets/6.awards/ibcf/ibcfmixed.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="award-link"
@@ -333,7 +333,7 @@ function Home() {
                   </a>
 
                   <a
-                    href="src/assets/6.awards/ibcf/ibcffolk.pdf"
+                    href="public/assets/6.awards/ibcf/ibcffolk.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="award-link"
@@ -342,7 +342,7 @@ function Home() {
                   </a>
 
                   <a
-                    href="src/assets/6.awards/ibcf/ibcfpopnjazz.pdf"
+                    href="public/assets/6.awards/ibcf/ibcfpopnjazz.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="award-link"
@@ -359,7 +359,7 @@ function Home() {
             <article
               className="award-item"
               style={{
-                "--award-bg": "url('/src/assets/5.experiences/dv-fss/fss3.jpg')"
+                "--award-bg": "url('/public/assets/5.experiences/dv-fss/fss3.jpg')"
               }}
             >
               <div className="award-date">
@@ -376,7 +376,7 @@ function Home() {
 
                 <div className="award-links">
                   <a
-                    href="src/assets/6.awards/fss/fssmixed.pdf"
+                    href="public/assets/6.awards/fss/fssmixed.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="award-link"
@@ -385,7 +385,7 @@ function Home() {
                   </a>
 
                   <a
-                    href="src/assets/6.awards/fss/fssfolk.pdf"
+                    href="public/assets/6.awards/fss/fssfolk.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="award-link"
@@ -402,7 +402,7 @@ function Home() {
             <article
               className="award-item"
               style={{
-                "--award-bg": "url('/src/assets/5.experiences/dv-sicc/sicc2.jpg')"
+                "--award-bg": "url('/public/assets/5.experiences/dv-sicc/sicc2.jpg')"
               }}
             >
               <div className="award-date">
@@ -419,7 +419,7 @@ function Home() {
 
                 <div className="award-links">
                   <a
-                    href="src/assets/6.awards/sicc/siccmixed.pdf"
+                    href="public/assets/6.awards/sicc/siccmixed.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="award-link"
@@ -428,7 +428,7 @@ function Home() {
                   </a>
 
                   <a
-                    href="src/assets/6.awards/sicc/siccfolklore.pdf"
+                    href="public/assets/6.awards/sicc/siccfolklore.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="award-link"
@@ -473,7 +473,7 @@ function Home() {
 
               <a
                 className="certification-link"
-                href="src/assets/7.certificate/1.it-spesialist.pdf" 
+                href="public/assets/7.certificate/1.it-spesialist.pdf" 
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="View HTML and CSS certificate"
@@ -498,7 +498,7 @@ function Home() {
 
               <a
                 className="certification-link"
-                href="src/assets/7.certificate/2.sap.pdf"
+                href="public/assets/7.certificate/2.sap.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="View SAP Overview certificate"
@@ -523,7 +523,7 @@ function Home() {
 
               <a
                 className="certification-link"
-                href="src/assets/7.certificate/4.Foundations.pdf"
+                href="public/assets/7.certificate/4.Foundations.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="View Java Foundations certificate"
@@ -548,7 +548,7 @@ function Home() {
 
               <a
                 className="certification-link"
-                href="src/assets/7.certificate/3.Programming.pdf"
+                href="public/assets/7.certificate/3.Programming.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="View Java Programming certificate"
@@ -669,15 +669,15 @@ function Home() {
           </h2>
 
           <div className="contact-links">
-            <a href="mailto:marcellfurler2005@gmail.com">
+            <a href="mailto:marcellfurler2005@gmail.com" target="_blank">
               send me something :D (email)
             </a>
 
-            <a href="https://wa.me/6281248890655">
+            <a href="https://wa.me/6281248890655" target="_blank">
               send me something :D (whatsapp)
             </a>
 
-            <a href="https://github.com/marcellfurler">
+            <a href="https://github.com/marcellfurler" target="_blank">
               look my projects (github)
             </a>
           </div>

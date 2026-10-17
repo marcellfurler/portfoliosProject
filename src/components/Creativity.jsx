@@ -157,9 +157,7 @@ const choralWorks = [
     subtitle: "Composing for SATB Choir by Marcell",
     year: "2025",
     description: "Original choral composition",
-    score: scoreFiles[
-      "../assets/3.Projects/music/Ave-Maria.pdf"
-    ],
+    score: "/portfoliosProject/assets/3.Projects/music/Ave-Maria.pdf",
   },
   {
     id: "choral-02",
@@ -168,9 +166,8 @@ const choralWorks = [
     subtitle: "Arranged for SATB Choir by Marcell",
     year: "2025",
     description: "Choral arrangement",
-    score: scoreFiles[
-      "../assets/3.Projects/music/Kumulai dari Diri Sendiri arr. Marcell.pdf"
-    ],
+    score:
+      "/portfoliosProject/assets/3.Projects/music/Kumulai-dari-Diri-Sendiri-arr.-Marcell.pdf",
   },
 ];
 

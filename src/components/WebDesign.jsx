@@ -94,7 +94,7 @@ export default function WebDesign() {
 
         <div className="project-visual web-design-visual">
           <img
-            src="/src/assets/art.png"
+            src="./public/assets/art.png"
             alt="App / Web Design Icon"
             className="project-icon"
           />
