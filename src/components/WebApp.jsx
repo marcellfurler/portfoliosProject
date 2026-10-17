@@ -56,7 +56,7 @@ export default function WebApp() {
 
         <div className="project-visual web-app-visual">
           <img
-            src="./public/assets/internet.png"
+            src={`${import.meta.env.BASE_URL}/assets/internet.png`}
             alt="Web Application Projects Icon"
             className="project-icon"
           />

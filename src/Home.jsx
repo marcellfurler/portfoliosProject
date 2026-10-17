@@ -98,7 +98,7 @@ function Home() {
             <article
               className="organization-item"
               style={{
-                "--org-bg": "url('./public/assets/2.work_experience/ppbukdw.jpg')"
+                "--org-bg": `url(${import.meta.env.BASE_URL}assets/2.work_experience/ppbukdw.jpg)`
               }}
             >
               <div className="organization-date">
@@ -123,7 +123,7 @@ function Home() {
             <article
               className="organization-item"
               style={{
-                "--org-bg": "url('./public/assets/2.work_experience/gkjwatesselatan.png')"
+                "--org-bg": `url(${import.meta.env.BASE_URL}assets/2.work_experience/gkjwatesselatan.png)`
               }}
             >
               <div className="organization-date">
@@ -179,7 +179,7 @@ function Home() {
 
             <div className="project-visual arts-visual">
                 <img
-                src="./public/assets/song.png"
+                src={`${import.meta.env.BASE_URL}/assets/song.png`}
                 alt="Arts and Creativity Icon"
                 className="project-icon"
                 />
@@ -216,7 +216,7 @@ function Home() {
             <article
               className="organization-item"
               style={{
-                "--org-bg": "url('./public/assets/4.organization/duta-voice.jpg')"
+                "--org-bg": `url(${import.meta.env.BASE_URL}assets/4.organization/duta-voice.jpg)`
               }}
             >
               <div className="organization-date">
@@ -240,7 +240,7 @@ function Home() {
             <article
               className="organization-item"
               style={{
-                "--org-bg": "url('./public/assets/4.organization/duta-voice2.JPG')"
+                "--org-bg": `url(${import.meta.env.BASE_URL}assets/4.organization/duta-voice2.JPG)`
               }}
             >
               <div className="organization-date">
@@ -264,7 +264,7 @@ function Home() {
             <article
               className="organization-item"
               style={{
-                "--org-bg": "url('./public/assets/4.organization/salawaku.JPG')"
+                "--org-bg": `url(${import.meta.env.BASE_URL}assets/4.organization/salawaku.JPG)`
               }}
             >
               <div className="organization-date">
@@ -307,7 +307,7 @@ function Home() {
             <article
               className="award-item"
               style={{
-                "--award-bg": "url('/public/assets/5.experiences/dv-ibcf/ibcf5.jpg')"
+                "--award-bg": `url(${import.meta.env.BASE_URL}assets/5.experiences/dv-ibcf/ibcf5.jpg)`
               }}
             >
               <div className="award-date">
@@ -324,7 +324,7 @@ function Home() {
 
                 <div className="award-links">
                   <a
-                    href="public/assets/6.awards/ibcf/ibcfmixed.pdf"
+                    href={`${import.meta.env.BASE_URL}assets/6.awards/ibcf/ibcfmixed.pdf`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="award-link"
@@ -333,7 +333,7 @@ function Home() {
                   </a>
 
                   <a
-                    href="public/assets/6.awards/ibcf/ibcffolk.pdf"
+                    href={`${import.meta.env.BASE_URL}assets/6.awards/ibcf/ibcffolk.pdf`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="award-link"
@@ -342,7 +342,7 @@ function Home() {
                   </a>
 
                   <a
-                    href="public/assets/6.awards/ibcf/ibcfpopnjazz.pdf"
+                    href={`${import.meta.env.BASE_URL}assets/6.awards/ibcf/ibcfpopnjazz.pdf`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="award-link"
@@ -359,7 +359,7 @@ function Home() {
             <article
               className="award-item"
               style={{
-                "--award-bg": "url('/public/assets/5.experiences/dv-fss/fss3.jpg')"
+                "--award-bg": `url(${import.meta.env.BASE_URL}assets/5.experiences/dv-fss/fss3.jpg)`
               }}
             >
               <div className="award-date">
@@ -376,7 +376,7 @@ function Home() {
 
                 <div className="award-links">
                   <a
-                    href="public/assets/6.awards/fss/fssmixed.pdf"
+                    href={`${import.meta.env.BASE_URL}assets/6.awards/fss/fssmixed.pdf`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="award-link"
@@ -385,7 +385,7 @@ function Home() {
                   </a>
 
                   <a
-                    href="public/assets/6.awards/fss/fssfolk.pdf"
+                    href={`${import.meta.env.BASE_URL}assets/6.awards/fss/fssfolk.pdf`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="award-link"
@@ -402,7 +402,7 @@ function Home() {
             <article
               className="award-item"
               style={{
-                "--award-bg": "url('/public/assets/5.experiences/dv-sicc/sicc2.jpg')"
+                "--award-bg": `url(${import.meta.env.BASE_URL}assets/5.experiences/dv-sicc/sicc2.JPG)`
               }}
             >
               <div className="award-date">
@@ -419,7 +419,7 @@ function Home() {
 
                 <div className="award-links">
                   <a
-                    href="public/assets/6.awards/sicc/siccmixed.pdf"
+                    href={`${import.meta.env.BASE_URL}assets/6.awards/sicc/siccmixed.pdf`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="award-link"
@@ -428,7 +428,7 @@ function Home() {
                   </a>
 
                   <a
-                    href="public/assets/6.awards/sicc/siccfolklore.pdf"
+                    href={`${import.meta.env.BASE_URL}assets/6.awards/sicc/siccfolklore.pdf`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="award-link"
@@ -473,7 +473,7 @@ function Home() {
 
               <a
                 className="certification-link"
-                href="public/assets/7.certificate/1.it-spesialist.pdf" 
+                href={`${import.meta.env.BASE_URL}assets/7.certificate/1.it-spesialist.pdf`} 
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="View HTML and CSS certificate"
@@ -498,7 +498,7 @@ function Home() {
 
               <a
                 className="certification-link"
-                href="public/assets/7.certificate/2.sap.pdf"
+                href={`${import.meta.env.BASE_URL}assets/7.certificate/2.sap.pdf`} 
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="View SAP Overview certificate"
@@ -523,7 +523,7 @@ function Home() {
 
               <a
                 className="certification-link"
-                href="public/assets/7.certificate/4.Foundations.pdf"
+                href={`${import.meta.env.BASE_URL}assets/7.certificate/4.Foundations.pdf`} 
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="View Java Foundations certificate"
@@ -548,7 +548,7 @@ function Home() {
 
               <a
                 className="certification-link"
-                href="public/assets/7.certificate/3.Programming.pdf"
+                href={`${import.meta.env.BASE_URL}assets/7.certificate/3.Programming.pdf`} 
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="View Java Programming certificate"
