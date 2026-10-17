@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/react-refresh' // atau sesuai plugin framework Anda
+import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev
 export default defineConfig({
   plugins: [react()],
-  base: '/portfoliosProject/', // Tambahkan baris ini (sesuaikan dengan nama repositori Anda)
+  base: '/portfoliosProject/', // Ini memastikan aset Anda terbaca di GitHub Pages
 })
