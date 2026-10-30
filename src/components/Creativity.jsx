@@ -147,6 +147,491 @@ const songs = [
       },
     ],
   },
+
+  {
+    id: "song-03",
+    number: "03",
+    title: "How to Say 'Goodbye'",
+    year: "2024",
+    description: "Original song",
+    status: "Lyrics/Unreleased",
+    // url: "",
+    verses: [
+      {
+        label: "VERSE 1",
+        lines: [
+          "In the middle of June",
+          "The rainy season has come",
+          "The party day has turned into a blue day",
+          "Walking in the dark",
+          "Unforgettable",
+          "Time to go and trust the darkness time",
+        ],
+      },
+      {
+        label: "CHORUS",
+        lines: [
+          "This is the end of time",
+          "How to say 'goodbye'?",
+          "May be seperated for a long time",
+          "How can i go",
+          "Without you by my side?",
+          "If you go, we'll make memories and say 'goodbye'",
+        ],
+      },
+      {
+        label: "VERSE 2",
+        lines: [
+          "Day after day",
+          "It's forgettable",
+          "I am strong to be by myself",
+          "July to December",
+          "January to June",
+          "I just write words to keep you in my mind",
+        ],
+      },
+      {
+        label: "CHORUS",
+        lines: [
+          "This is the end of time",
+          "How to say 'goodbye'?",
+          "May be seperated for a long time",
+          "How can i go",
+          "Without you by my side?",
+          "If you go, we'll make memories and say 'goodbye'",
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "song-04",
+    number: "04",
+    title: "Happy Song",
+    year: "2023",
+    description: "Original song",
+    status: "Lyrics/Unreleased",
+    // url: "",
+    verses: [
+      {
+        label: "VERSE 1",
+        lines: [
+          "Why do tears fall from your eyes?",
+          "Come and dance with me.",
+          "I can share my happiness with you.",
+          "With my 'Happy Song', I wrote in the summer night.",
+        ],
+      },
+      {
+        label: "PRE-CHORUS",
+        lines: [
+          "Hands up, sad go, tears will go from you, smile in your mouth.",
+          "Call all of your friends and dance with us.",
+        ],
+      },
+      {
+        label: "CHORUS",
+        lines: [
+          "Oh, balloons above the sky",
+          "And I see a blue-white sky.",
+          "Butterfly in flower and",
+          "Yellow flowers have a bee.",
+          "So Let's go find all kids.",
+          "Dance and shake our bodies, la la la.",
+          "Use my 'Happy Song'.",
+          "Dance and shake our bodies, la la la. Oh oh oh",
+        ],
+      },
+      {
+        label: "VERSE 2",
+        lines: [
+          "Beach, water, and swimming on the beach",
+          "Kids eat white ice cream.",
+          "I will play my song, and we will dance.",
+          "With my 'Happy Song', I wrote in the summer night.",
+        ],
+      },
+      {
+        label: "PRE-CHORUS",
+        lines: [
+          "Hands up, sad go, tears will go from you, smile in your mouth.",
+          "Call all of your friends and dance with us.",
+        ],
+      },
+      {
+        label: "CHORUS",
+        lines: [
+          "Oh, balloons above the sky",
+          "Now I see a blue-white sky.",
+          "Kids are playing football.",
+          "I call them to dance together.",
+          "So Let's go find all kids.",
+          "Dance and shake our bodies, la la la.",
+          "Use my 'Happy Song'.",
+          "Dance and shake our bodies, la la la. Oh oh oh",
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "song-05",
+    number: "05",
+    title: "when you love someone but shesn't yours",
+    year: "2026",
+    description: "Original song",
+    status: "Lyrics/Unreleased",
+    // url: "",
+    verses: [
+      {
+        label: "VERSE 1",
+        lines: [
+          "in the middle of the night",
+          "when you're riding a bike with me under city lights ",
+          "the cold wind softly blows by",
+          "kept warm by your little smile, when we're joking babe",
+        ],
+      },
+      {
+        label: "PRE-CHORUS",
+        lines: [
+          "i know that i can't have your heart and body babe",
+          "yet every single thing i do is all for you",
+        ],
+      },
+      {
+        label: "CHORUS",
+        lines: [
+          "'cuz i",
+          "will love you even if it's fifteen thousand miles away",
+          "and i",
+          "will keep your name in my heart till the end of the world",
+          "but i i i ",
+          "might never make you mine, but fuck it, that will be fine",
+          "the world might fade away, but I'm still loving you, oh my babe",
+        ],
+      },
+      {
+        label: "VERSE 2",
+        lines: [
+          "in the middle of the night",
+          "drinks and music in our blood, feeling warm on your lips",
+          "shining diamonds in the sky",
+          "'move your body', little shy, it's the first time for me",
+        ],
+      },
+      {
+        label: "PRE-CHORUS",
+        lines: [
+          "i know that i can't have your heart and body babe",
+          "yet everything we did will stay deep in my heart ",
+        ],
+      },
+      {
+        label: "CHORUS",
+        lines: [
+          "'cuz i",
+          "will love you even if it's fifteen thousand miles away",
+          "and i",
+          "will keep your name in my heart till the end of the world",
+          "but i i i ",
+          "might never make you mine, but fuck it, that will be fine",
+          "the world might fade away, but I'm still loving you, oh my babe",
+        ],
+      },
+      {
+        label: "OUTRO",
+        lines: [
+          "when you love someone but shesn't yours",
+          "when you love someone but shesn't yours",
+        ],
+      }
+    ],
+  },
+
+  {
+    id: "song-06",
+    number: "06",
+    title: "Flower?",
+    year: "2026",
+    description: "Original song",
+    status: "Lyrics/Unreleased",
+    // url: "",
+    verses: [
+      {
+        label: "VERSE 1",
+        lines: [
+          "If one day i change into a flower",
+          "Will you pick my bloom? Will you take me home?",
+          "If one day our world's gone, and no one stays",
+          "Hold me in the dark. Keep our fading spark",
+        ],
+      },
+      {
+        label: "CHORUS",
+        lines: [
+          "You're the only one i know",
+          "Stay right next to me",
+          "Flower of my heart",
+          "You're my flashlight, oh my love",
+          "Nothing can make all these wrong",
+          "I keep you in my mind,",
+          "You're the story of my life",
+          "Oh you are my love",
+        ],
+      },
+      {
+        label: "OUTRO",
+        lines: [
+          "Oh oh",
+          "Will you pick my bloom, be my home oh my love",
+          "Oh oh",
+          "Hold my hand and i will take you out from the dark, oh my love",
+        ],
+      },
+      {
+        label: "VERSE 2",
+        lines: [
+          "If one day i'll be a poem in a song",
+          "Will you listen close? Will i be your number one?",
+          "Though the world fades, all the words are gone",
+          "Your beats in my veins. Every tune i take",
+        ],
+      },
+      {
+        label: "CHORUS",
+        lines: [
+          "You're the lyrics in my songs",
+          "Keep you in my mind",
+          "Beats are in my veins",
+          "You're the music, oh my love",
+          "Nothing can make all these wrong",
+          "I keep you in my songs",
+          "You're the story of my life",
+          "Oh you are my love",
+        ],
+      },
+      {
+        label: "OUTRO",
+        lines: [
+          "Oh oh",
+          "Will you listen close to feel you close to me, oh my love",
+          "Oh oh",
+          "You're the beats, the melody, the whole songs, oh my love",
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "song-07",
+    number: "07",
+    title: "Surrender",
+    year: "2026",
+    description: "Original song",
+    status: "Lyrics/Unreleased",
+    // url: "",
+    verses: [
+      {
+        label: "VERSE 1",
+        lines: [
+          "The stars are hiding from the moon",
+          "We're lost inside to the world, unknown places",
+          "The moon is waiting for the sun",
+          "You come to me, but your mind's in other places",
+        ],
+      },
+      {
+        label: "PRE-CHORUS",
+        lines: [
+          "But I see something in your eyes",
+          "Tell me, tell me, 'cause I should know",
+          "Know this love won’t last forever",
+        ],
+      },
+      {
+        label: "CHORUS",
+        lines: [
+          "Oh, I surrender",
+          "All the truth is in your eyes",
+          "There's no story from you and me, we're over now.",
+          "You’re just being you, but there’s nothing left",
+          "Oh, I surrender",
+          "It’s the end of our time",
+          "I’ve given all I have, and there is nothing left",
+          "There's a beating in my mind, oh babe now ",
+          "Oh I surrender",
+        ],
+      },
+      {
+        label: "VERSE 2",
+        lines: [
+          "The sun is hiding in the sky",
+          "Thunderclouds are gray and feeling bad down now",
+          "All the memories we found",
+          "There's no, oh it's all over now",
+        ],
+      },
+      {
+        label: "PRE-CHORUS",
+        lines: [
+          "But I see something in your eyes",
+          "Tell me, tell me, 'cause I should know",
+          "Know this love won’t last forever",
+        ],
+      },
+      {
+        label: "CHORUS",
+        lines: [
+          "Oh, I surrender",
+          "All the truth is in your eyes",
+          "There's no story from you and me, we're over now.",
+          "You’re just being you, but there’s nothing left",
+          "Oh, I surrender",
+          "It’s the end of our time",
+          "I’ve given all I have, and there is nothing left",
+          "There's a beating in my mind, oh babe now ",
+          "Oh I surrender",
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "song-08",
+    number: "08",
+    title: "Three Words",
+    year: "2026",
+    description: "Original song",
+    status: "Lyrics/Unreleased",
+    // url: "",
+    verses: [
+      {
+        label: "OPENING-CHORUS",
+        lines: [
+          "3 words i'll say 'i love you'",
+          "It is hard for me, to say it to you",
+          "There's no reason for me to fall in love with you",
+        ],
+      },
+      {
+        label: "VERSE 1",
+        lines: [
+          "We're walking on the sea that we shouldn't cross,",
+          "Searching for a land that could never be found",
+        ],
+      },
+      {
+        label: "PRE-CHORUS",
+        lines: [
+          "But there's something in your eyes",
+          "My love won't be a curse for you",
+          "But i've got 3 words for you",
+        ],
+      },
+      {
+        label: "CHORUS",
+        lines: [
+          "Just want to say 'i love you'",
+          "It is hard for me, to say it to you",
+          "There's no reason for me to fall in love with you",
+          "It's getting hard for me,",
+          "It's starting to hurt",
+          "But you'll stay in my mind and memories forever",
+        ],
+      },
+      {
+        label: "OUTRO-CHORUS",
+        lines: [
+          "It's getting hard for me,",
+          "It's starting to hurt",
+          "It is hard for me, to say those words to you",
+        ],
+      },
+      {
+        label: "VERSE 2",
+        lines: [
+          "I'm hiding every storm beneath the blue sea,",
+          "Afraid that if i breath, i'll lose the view",
+          "I've turned my tears into diamonds in the dark",
+          "A hidden light, carrying a silent spark",
+        ],
+      },
+      {
+        label: "PRE-CHORUS",
+        lines: [
+          "But there's something in your eyes",
+          "My love won't be a curse for you",
+          "But i've got 3 words for you",
+        ],
+      },
+      {
+        label: "CHORUS",
+        lines: [
+          "Just want to say 'i love you'",
+          "It is hard for me, to say it to you",
+          "There's no reason for me to fall in love with you",
+          "It's getting hard for me,",
+          "It's starting to hurt",
+          "But you'll stay in my mind and memories forever",
+        ],
+      },
+      {
+        label: "OUTRO-CHORUS",
+        lines: [
+          "It's getting hard for me,",
+          "It's starting to hurt",
+          "It is hard for me, to say 'i love you'",
+        ],
+      },
+
+    ],
+  },
+
+  {
+    id: "song-09",
+    number: "09",
+    title: "Hati Kecilku",
+    year: "2025",
+    description: "Original song",
+    status: "Lyrics/Unreleased",
+    // url: "",
+    verses: [
+      {
+        label: "VERSE 1",
+        lines: [
+          "Hai hati kecil ku, dengarkan ku",
+          "Ku tahu isi hati yang remuk",
+          "Ke kanan tak kunjung datang",
+          "Ke kiri pun tak dapat",
+          "Menemukan jalan yang terbaik",
+        ],
+      },
+      {
+        label: "VERSE 2",
+        lines: [
+          "Hai isi hati kecil yang remuk",
+          "Daksa mu cerah, tapi kau remuk",
+          "Pejamkan mata, hembuskan",
+          "Nafas dan mulai terbuka",
+          "C'ritakan s'luruh isi hati mu.",
+        ],
+      },
+      {
+        label: "CHORUS",
+        lines: [
+          "Hati kecilku,",
+          "Ceritakanlah pada dunia",
+          "Ku tau tak kan ada sebuah tempat",
+          "Yang mau menerima luka ku",
+          "Hati kecil ku",
+          "Menaki pun daksamu tak rela",
+          "Binar hati kecilku padamu",
+          "Dengarlah, isi hati kecilku",
+        ],
+      },
+    ],
+  },
 ];
 
 const choralWorks = [
